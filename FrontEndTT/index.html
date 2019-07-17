@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test task layout</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="user">
+			<div class="user__info">
+				<h1>Вероника Ростова</h1>
+				<p>Менеджер по продажам</p>
+				<div class="user__info_block">
+					<img src="img/face.png" alt="img">
+					<span>
+						Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны
+					</span>
+				</div>
+			</div>
+			<div class="user__service">
+				<table>
+					<thead>
+						<tr>
+							<td>
+								<span class="user__progress_hd">Услуг</span>
+							</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<div class="user__progress green__line">
+									<span class="user__progress_item1">
+										Ручное бронирование
+									</span>
+								</div>
+							</td>
+							<td>
+								<span class="user__progress_digit1">11</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="user__progress blue__line_1">
+									<span class="user__progress_item2">
+										Пакетные туры
+									</span>
+								</div>
+							</td>
+							<td>
+								<span class="user__progress_digit2">3</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="user__progress blue__line_2">
+									<span class="user__progress_item3">
+										Отели
+									</span>
+								</div>
+							</td>
+							<td>
+								<span class="user__progress_digit3">1</span>
+							</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td>
+								<span class="user__progress_item4">
+									Всего
+								</span>
+							</td>
+							<td>
+								<span class="user__progress_digit4">15</span>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+			<div class="user__review">
+				<p class="user__review_caption">
+					Последние отзывы
+				</p>
+				<div>
+					<a href="#" class="user__review_link">
+						Все отзывы
+					</a>
+				</div>
+				<p class="user__review_like">131</p>
+				<p class="user__review_comments">14</p>
+			</div>
+			<div class="user__comments">
+				<div class="user__comments_block">
+					<div class="flex">
+						<p class="user__comments_name">
+							Самуил
+						</p>
+						<p class="user__comments_date">
+							13 октября 2011
+						</p>
+					</div>
+					<div class="user__comments_text">
+						Привет, Верунь! ниче себе ты крутая. фотка класс!!!! 
+					</div>
+				</div>
+				<div class="user__comments_block">
+					<div class="flex">
+						<p class="user__comments_name">
+							Лилия Семёновна
+						</p>
+						<p class="user__comments_date">
+							14 октября 2011
+						</p>
+					</div>
+					<div class="user__comments_text">
+						Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами? 
+					</div>
+				</div>
+				<div class="user__comments_block">
+					<div class="flex">
+						<p class="user__comments_name">
+							Лилия Семёновна
+						</p>
+						<p class="user__comments_date">
+							14 октября 2011
+						</p>
+					</div>
+					<div class="user__comments_text">
+						Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент? 
+					</div>
+				</div>
+				<div id="user__comments"></div>
+			</div>
+		</div>
+		<div class="comments">
+			<form id="comments__form" class="comments__form" action="">
+				<input id="comments__username" type="text" name="text" placeholder="Username">
+				<textarea id="comments__textarea"></textarea>
+				<input id="comments__submit" type="submit" value="Написать консультанту">
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
